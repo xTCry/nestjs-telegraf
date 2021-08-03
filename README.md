@@ -1,4 +1,4 @@
-# NestJS Telegraf ![npm](https://img.shields.io/npm/dm/nestjs-telegraf) ![GitHub last commit](https://img.shields.io/github/last-commit/bukhalo/nestjs-telegraf) ![NPM](https://img.shields.io/npm/l/nestjs-telegraf)
+# NestJS Telegraf ![npm](https://img.shields.io/npm/dm/@xtcry/nestjs-telegraf) ![GitHub last commit](https://img.shields.io/github/last-commit/xtcry/nestjs-telegraf) ![NPM](https://img.shields.io/npm/l/@xtcry/nestjs-telegraf)
 
 <img align="right" width="95" height="148" title="NestJS logotype"
      src="https://nestjs.com/img/logo-small.svg">
@@ -23,14 +23,14 @@ If you want to dive fully into NestJS Telegraf then don't waste your time in thi
 ## Installation
 
 ```bash
-$ npm i nestjs-telegraf telegraf
+$ npm i @xtcry/nestjs-telegraf telegraf
 ```
 
 ## Usage
 Once the installation process is complete, we can import the `TelegrafModule` into the root `AppModule`:
 ```typescript
 import { Module } from '@nestjs/common';
-import { TelegrafModule } from 'nestjs-telegraf';
+import { TelegrafModule } from '@xtcry/nestjs-telegraf';
 
 @Module({
   imports: [
@@ -52,7 +52,7 @@ import {
   On,
   Hears,
   Context,
-} from 'nestjs-telegraf';
+} from '@xtcry/nestjs-telegraf';
 import { AppService } from './app.service';
 import { Context } from './context.interface';
 
