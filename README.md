@@ -1,4 +1,4 @@
-# NestJS Telegraf ![npm](https://img.shields.io/npm/dm/nestjs-telegraf) ![GitHub last commit](https://img.shields.io/github/last-commit/bukhalo/nestjs-telegraf) ![NPM](https://img.shields.io/npm/l/nestjs-telegraf)
+# NestJS Telegraf ![npm](https://img.shields.io/npm/dm/@xtcry/nestjs-telegraf) ![GitHub last commit](https://img.shields.io/github/last-commit/xtcry/nestjs-telegraf) ![NPM](https://img.shields.io/npm/l/@xtcry/nestjs-telegraf)
 
 <img align="right" width="95" height="148" title="NestJS logotype"
      src="https://nestjs.com/img/logo-small.svg">
@@ -25,7 +25,7 @@ This package uses the best of the NodeJS world under the hood. [Telegraf](https:
 ## Installation
 
 ```bash
-$ npm i nestjs-telegraf telegraf
+$ npm i @xtcry/nestjs-telegraf telegraf
 ```
 
 ## Documentation
